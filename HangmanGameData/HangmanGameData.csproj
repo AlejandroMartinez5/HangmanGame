@@ -44,7 +44,8 @@
   <ItemGroup>
     <Compile Include="CategoryRepository.cs" />
     <Compile Include="GameRepository.cs" />
-    <Compile Include="HangmanGame.designer.cs">
+    <Compile Include="HangmanGame.designer.cs" />
+    <Compile Include="HangmanGame1.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>HangmanGame.dbml</DependentUpon>
@@ -70,7 +71,7 @@
     <None Include="app.config" />
     <None Include="HangmanGame.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>HangmanGame.designer.cs</LastGenOutput>
+      <LastGenOutput>HangmanGame1.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
     <None Include="HangmanGame.dbml.layout">
