@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreateGameDto.cs" />
     <Compile Include="Dtos\CategoryDto.cs" />
     <Compile Include="Dtos\CreateGameDto.cs" />
     <Compile Include="Dtos\GameDto.cs" />
@@ -56,8 +55,6 @@
     <Compile Include="Dtos\UserDto.cs" />
     <Compile Include="Dtos\UserScoreDto.cs" />
     <Compile Include="Dtos\WordDto.cs" />
-    <Compile Include="GameOperationResultDto.cs" />
-    <Compile Include="GuessLetterDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
