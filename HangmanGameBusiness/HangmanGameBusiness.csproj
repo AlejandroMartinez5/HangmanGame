@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Categories\CategoryBusiness.cs" />
+    <Compile Include="Categories\ICategoryBusiness.cs" />
     <Compile Include="Games\GameBusiness.cs" />
     <Compile Include="Games\IGameBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

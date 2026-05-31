@@ -62,15 +62,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Services\CategoryService.svc" />
+    <Content Include="Services\GameService.svc" />
     <Content Include="Services\UserService.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IGameService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\CategoryService.svc.cs">
       <DependentUpon>CategoryService.svc</DependentUpon>
     </Compile>
+    <Compile Include="Services\GameService.svc.cs">
+      <DependentUpon>GameService.svc</DependentUpon>
+    </Compile>
     <Compile Include="Services\ICategoryService.cs" />
+    <Compile Include="Services\IGameCallback.cs" />
     <Compile Include="Services\IUserService.cs" />
     <Compile Include="Services\UserService.svc.cs">
       <DependentUpon>UserService.svc</DependentUpon>
