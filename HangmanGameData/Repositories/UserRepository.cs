@@ -70,7 +70,8 @@ namespace HangmanGameData.Repositories
 
         private UserDto MapToUserDto(Users user)
         {
-            return new UserDto
+            return new UserDto.
+
             {
                 UserId = user.UserId,
                 FullName = user.FullName,

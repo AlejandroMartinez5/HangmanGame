@@ -42,11 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreateGameDto.cs" />
     <Compile Include="Dtos\LoginDto.cs" />
     <Compile Include="Dtos\OperationResultDto.cs" />
     <Compile Include="Dtos\RegisterUserDto.cs" />
     <Compile Include="Dtos\UpdateUserProfileDto.cs" />
     <Compile Include="Dtos\UserDto.cs" />
+    <Compile Include="GameOperationResultDto.cs" />
+    <Compile Include="GuessLetterDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
